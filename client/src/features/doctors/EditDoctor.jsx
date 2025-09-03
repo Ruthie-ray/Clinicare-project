@@ -1,4 +1,5 @@
 import { updateDoctor } from "@/api/doctor";
+import ErrorAlert from "@/components/ErrorAlert";
 import Modal from "@/components/Modal";
 import { useAuth } from "@/store";
 import { validateDoctorAvailabilitySchema } from "@/utils/dataSchema";
